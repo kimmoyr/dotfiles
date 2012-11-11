@@ -1,14 +1,8 @@
-# Sample gitconfig
-#
-# You probably want to change the [user] section here since you are not me.
-
 [hub]
-        protocol = https
+        protocol = ssh
 [user]
-        name = Zach Holman
-        email = zach@zachholman.com
-[credential]
-        helper = osxkeychain
+        name = Kimmo Yli-Rohdainen
+        email = kimmoyr@gmail.com
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
@@ -23,11 +17,5 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
-[apply]
-        whitespace = nowarn
-[mergetool]
-        keepBackup = false
-[difftool]
-        prompt = false
 [help]
         autocorrect = 1

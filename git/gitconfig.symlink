@@ -16,6 +16,6 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
+        editor = nano
 [help]
         autocorrect = 1

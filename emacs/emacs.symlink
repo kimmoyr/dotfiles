@@ -1,0 +1,16 @@
+;; Load path
+(add-to-list 'load-path "~/.emacs.d/")
+
+;; ErgoEmacs
+;;(setenv "ERGOEMACS_KEYBOARD_LAYOUT" "sv") ;
+;;(load "~/.emacs.d/ergoemacs-keybindings-5.3.9/ergoemacs-mode")
+;;(ergoemacs-mode 1)
+
+;; Ergo movement mode
+(require 'ergo-movement-mode)
+(ergo-movement-mode 1)
+
+;; Hide menu bar and tool bar
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
